@@ -48,7 +48,7 @@ $(document).ready(function()
             if (valor.imagen=='NONE')
                 prevProducto+='<img alt="Sin Fotografía"/>';
             else
-                prevProducto+='<img src="'+valor.imagen+'"/>';
+                prevProducto+='<p><img src="'+valor.imagen+'"/></p>';
             prevProducto+='</div>';
 
             prevProducto+='<div class="col-md-3 descip2">';
